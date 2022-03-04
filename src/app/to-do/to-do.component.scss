@@ -1,0 +1,76 @@
+.mainBlock{
+  text-align: center;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 248, 248);
+}
+.mat-form-field{
+  width:100%;
+
+}
+.mat-form-field-wrapper{
+  padding-bottom: 0;
+
+}
+.mat-card-actions{
+  padding: 0;
+}
+.mat-card{
+  width:35%;
+  padding: 30px;
+  border-radius: 0;
+  border:1px solid rgb(236, 236, 236);
+}
+.listItems{
+  overflow-x: hidden;
+  overflow-y: overlay;
+  height:50vh;
+}
+.mat-list-item{
+  background-color: rgb(236, 236, 236);
+  border:1px solid rgb(248, 248, 248);
+}
+.actionBtn{
+  float:right;
+}
+::ng-deep .mat-list-item-content{
+justify-content: space-between;
+}
+.mat-icon:first-of-type{
+  margin-right:30px;
+
+}
+.editInput{
+  height:45px;
+  width:100%;
+  border:0;
+  font-size:16px;
+  text-indent: 15px;
+
+}
+input:focus{
+  outline: none;
+}
+.editDiv{
+  display:flex;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+}
+@media screen and (max-width:850px){
+  .mat-card{
+    width:60%;
+  }
+}
+@media screen and (max-width:400px){
+  .mat-card{
+    width:100%;
+  }
+  .mat-icon:first-of-type{
+    margin-right:10px;
+
+  }
+}
